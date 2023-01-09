@@ -21,25 +21,84 @@ body {
 }
 
 .header {
-    background-color: grey;
+    background-color: #080b12;
     width: 100%;
-    height: 6rem
+    height: 6rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header span {
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 1.5rem;
+
 }
 
 .song-space {
     background-color:#141922;
     width: 100%;
-    height: calc(70rem - 6rem);
+    height: calc(70rem - 8rem);
     overflow: auto;
 }
 
 .listening-bar {
     width: 100%;
-    height: 6rem;
+    height: 8rem;
     background-color: silver;
 
 }
 
+/*SIDEBAR*/
+.sidebar img {
+    width: 10rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.home {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.playlist {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.playlist p {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.home p {
+    margin-top: 5px;
+}
+
+.sidebar p {
+    color: #585858;
+}
+
+.sidebar h2 {
+    color: #585858;
+    margin-bottom: 5px;
+}
+
+.sidebar h3 {
+    color: #585858;
+    margin-bottom: 5px;
+}
+
+.install {
+    margin-left: 1rem;
+    margin-top: 35rem;
+}
 /*SONG-SPACE*/
 
 .nav {
@@ -54,9 +113,11 @@ body {
     margin-top: 0.5rem;
 }
 
+/*RECENTLY-PLAYED*/
+
 .Recently-title {
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     margin-top: 2rem;
     margin-left: 1.5rem;
@@ -75,7 +136,11 @@ body {
 .song-photo {
     width: 180px;
     height: 180px;
-    background-color: white;
+}
+
+.song-photo img{
+    width:100%;
+    height:100%;
 }
 
 .song-description {
@@ -101,6 +166,8 @@ body {
 
 }
 
+/*CREATE4JHON*/
+
 .Create4Jhon {
     display: flex;
     gap: 1rem;
@@ -121,10 +188,18 @@ body {
     margin-bottom: 1.5rem;
 }
 
+/*POPULARARTIST*/
+
 .PopularArtist {
     display: flex;
     margin-left: 1.5rem;
     gap: 1rem;
+}
+
+.PopularArtist div img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
 }
 
 .circle{
