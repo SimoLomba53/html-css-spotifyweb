@@ -27,7 +27,7 @@ body {
 }
 
 .song-space {
-    background-color: #96a0e0;
+    background-color:#141922;
     width: 100%;
     height: calc(70rem - 6rem);
     overflow: auto;
@@ -38,4 +38,31 @@ body {
     height: 6rem;
     background-color: silver;
 
+}
+
+/*SONG-SPACE*/
+
+.nav {
+    width: 60%;
+    font-size: 15px;
+    font-weight: bold;
+    color:#73767a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.Recently-played {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Recently-played div {
+    width: 180px;
+    height: 180px;
+    background-color: white;
 }
