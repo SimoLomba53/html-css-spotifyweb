@@ -27,6 +27,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    
 }
 
 .header span {
@@ -54,15 +55,22 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 
 
 /*SIDEBAR*/
-.sidebar img {
+#logo-sidebar{
     width: 10rem;
     margin-top: 1rem;
     margin-left: 1rem;
+}
+
+.home img {
+    width: 20px;
+    position: relative;
+    top: 2px;
 }
 
 .home {
@@ -77,6 +85,10 @@ body {
     margin-left: 1rem;
 }
 
+.piu {
+    background-color: grey;
+    padding: 4px;
+}
 .playlist p {
     font-size: 1rem;
     margin-top: 1rem;
@@ -104,6 +116,23 @@ body {
     margin-left: 1rem;
     margin-top: 35rem;
 }
+
+.arrow {
+    color: white;
+    font-size: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#Doe-name {
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+
 /*SONG-SPACE*/
 
 .nav {
@@ -231,11 +260,44 @@ body {
     gap: 10px
 }
 
+.song-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#sinister-name {
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+
+}
+
+#brano-name {
+    color: grey;
+}
+
+#icon-first-part {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: grey;
+    margin-left: 10px;
+}
+
 .central-part {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content:center;
+}
+
+.play-command {
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .song-time {
@@ -263,6 +325,9 @@ body {
     display: flex;
     align-items: center;
     margin-right: 1rem;
+    gap: 10px;
+    color: white;
+    font-size: 10px;
 }
 
 .volume-bar {
