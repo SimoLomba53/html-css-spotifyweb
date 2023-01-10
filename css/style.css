@@ -39,7 +39,12 @@ body {
     border: 1px solid white;
     border-radius: 50px;
     margin-right: 1.5rem;
+    transition: all .2s ease-in-out;
 
+}
+
+.header span:hover{
+    transform: scale(1.2);
 }
 
 .song-space {
@@ -81,6 +86,10 @@ body {
     margin-left: 1rem;
 }
 
+#house {
+    border-left: 1px solid limegreen;
+}
+
 .playlist {
     margin-top: 1.5rem;
     font-size: 1.5rem;
@@ -104,6 +113,10 @@ body {
     color: #585858;
 }
 
+.sidebar p:hover{
+    filter: brightness(100);
+}
+
 .sidebar h2 {
     color: #585858;
     margin-bottom: 5px;
@@ -112,6 +125,10 @@ body {
 .sidebar h3 {
     color: #585858;
     margin-bottom: 5px;
+}
+
+.sidebar h3:hover{
+    filter: brightness(100);
 }
 
 .install {
@@ -148,6 +165,14 @@ body {
     margin-top: 0.5rem;
 }
 
+.nav :first-child{
+    box-shadow: 0px 1px greenyellow;
+}
+
+.nav span:hover{
+    filter: brightness(100);
+}
+
 /*RECENTLY-PLAYED*/
 
 .Recently-title {
@@ -171,6 +196,10 @@ body {
 .song-photo {
     width: 180px;
     height: 180px;
+}
+
+.song-photo:hover{
+    opacity: 0.5;
 }
 
 .song-photo img{
@@ -278,12 +307,20 @@ body {
     color: grey;
 }
 
+#brano-name:hover{
+    filter: brightness(80);
+}
+
 #icon-first-part {
     display: flex;
     gap: 1rem;
     align-items: center;
     color: grey;
     margin-left: 10px;
+}
+
+#icon-first-part i:hover{
+    filter: brightness(80);
 }
 
 .central-part {
@@ -299,6 +336,10 @@ body {
     gap: 20px;
     font-size: 30px;
     margin-bottom: 20px;
+}
+
+.fa-circle-play:hover{
+    transform: scale(1.2);
 }
 
 .song-time {
