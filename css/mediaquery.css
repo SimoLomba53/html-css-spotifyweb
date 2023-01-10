@@ -5,19 +5,75 @@
     }
 }
 
-@media screen and (max-width: 1025px) {
-
-}
+@media screen and (max-width: 1025px) {}
 
 @media screen and (max-width: 769px) {
-    .conteiner{
-        width:100%;
+
+    .song-time {
+        width: 200px;
+    }
+
+    .play-command {
+        font-size: 20px
     }
 
 }
 
 @media screen and (max-width:480px) {
-   .conteiner{
-    width:100%;
-   }
+
+    .song-time {
+        width: 100px;
+    }
+
+    .play-command {
+        font-size: 10px
+    }
+
+    .right-part {
+        width: 10px;
+
+    }
+
+    .first-part img {
+        width: 50px;
+
+
+    }
+
+    .central-part {
+        position: relative;
+        right: 50px
+    }
+
+    .song-detail p {
+        font-size: 10px;
+    }
+
+    #sinister-name {
+        font-size: 15px;
+    }
+
+    .volume-bar {
+        width: 10px;
+        position: relative;
+        right: 10px;
+    }
+
+    .right-part i {
+        font-size: 10px;
+
+
+
+    }
+
+    .right-part {
+        position: relative;
+        right: 100px;
+    }
+
+     .install {
+          margin-top: 10rem;
+     }
+
+
 }
