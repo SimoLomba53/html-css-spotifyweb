@@ -5,7 +5,22 @@
     }
 }
 
-@media screen and (max-width: 1025px) {}
+@media screen and (max-width: 1025px) {
+    .playlist {
+        height: 50%;
+
+    }
+
+
+    .song-time {
+        width: 200px;
+    }
+
+    .play-command {
+        font-size: 20px
+    }
+
+}
 
 @media screen and (max-width: 769px) {
 
@@ -15,6 +30,10 @@
 
     .play-command {
         font-size: 20px
+    }
+
+    .playlist {
+        height: 50%;
     }
 
 }
@@ -71,9 +90,9 @@
         right: 100px;
     }
 
-     .install {
-          margin-top: 10rem;
-     }
+    .install {
+        margin-top: 10rem;
+    }
 
 
 }

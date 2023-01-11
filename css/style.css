@@ -1,6 +1,7 @@
 body {
     width: 100%;
     height: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .conteiner {
@@ -91,6 +92,7 @@ body {
     margin-top: 1.5rem;
     font-size: 1.5rem;
     margin-left: 1rem;
+    height: 53%;
 }
 
 .piu {
@@ -98,9 +100,13 @@ body {
     padding: 4px;
 }
 
+.playlist h3 {
+    margin-top: 1rem;
+}
+
 .playlist p {
     font-size: 1rem;
-    margin-top: 1rem;
+    margin-top: 1.2rem;
 }
 
 .home p {
@@ -194,7 +200,77 @@ body {
 .song-photo {
     width: 180px;
     height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.song-photo i {
+    color: transparent;
+    font-size: 50px;
+}
+
+.song-photo i:hover {
+    color: white;
+}
+
+/*PHOTO URL*/
+
+.metal{
+    background-image: url(/img/metal_lifting.jpg);
+    background-size: cover;
+}
+
+.strangerthings{
+    background-image: url(/img/stranger.jpeg);
+    background-size: cover;
+}
+
+.quiet{
+    background-image: url(/img/aquietplace.jpeg);
+    background-size: cover;
+}
+
+.split{
+    background-image: url(/img/split.jpeg);
+    background-size: cover;
+}
+
+.wellness{
+    background-image: url(/img/cure.jpeg);
+    background-size: cover;
+}
+
+.sinister{
+    background-image: url(/img/sinister.jpeg);
+    background-size: cover;
+}
+
+.radar{
+    background-image: url(/img/radar.jpeg);
+    background-size: cover;
+}
+
+.daily{
+    background-image: url(/img/mixdaily.jpeg);
+    background-size: cover;
+}
+
+.lanadelray{
+    background-image: url(/img/youg.jpeg);
+    background-size: cover;
+}
+
+.einaudi{
+    background-image: url(/img/einaudi.jpeg);
+    background-size: cover;
+}
+
+.cerchio{
+    border-radius: 50%;
+}
+
+/*FINE URL PHOTO*/
 
 .song-photo:hover {
     opacity: 0.5;
@@ -330,12 +406,26 @@ body {
     justify-content: center;
 }
 
+.minute-left {
+    color: white;
+    position: relative;
+    right: 60%;
+    top: 12px;
+}
+
+.minute-right {
+    color: white;
+    position: relative;
+    left: 60%;
+    bottom: 12px;
+}
+
 .play-command {
     color: white;
     display: flex;
     gap: 20px;
     font-size: 30px;
-    margin-bottom: 20px;
+    
 }
 
 .fa-circle-play:hover {
