@@ -72,6 +72,7 @@ body {
     margin-left: 1rem;
 }
 
+
 .home img {
     width: 20px;
     position: relative;
@@ -82,6 +83,17 @@ body {
     margin-top: 1.5rem;
     font-size: 1.5rem;
     margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.home span {
+    color:#585858
+
+}
+
+.home span:hover{
+    filter: brightness(100);
 }
 
 #house {

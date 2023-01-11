@@ -94,5 +94,42 @@
         margin-top: 10rem;
     }
 
+    .sidebar {
+        width: 73px;
 
+    }
+
+    .sidebar p {
+        display: none;
+    }
+
+    .sidebar span {
+        display: none;
+    }
+
+    .sidebar h2 {
+        display: none;
+
+    }
+
+    .sidebar h3 {
+        display: none;
+    }
+
+    .sidebar img {
+        margin-top: 3rem;
+        width: 35px;
+    }
+
+
+}
+
+@media screen and (max-height:350px) {
+    .header {
+        display: none;
+    }
+
+    .song-space {
+        height: 100%;
+    }
 }
